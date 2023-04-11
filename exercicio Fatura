@@ -60,10 +60,5 @@ public class Empregado {
    
    public void getFaturaTotal(double valor, double preco, int quantidade){
        valor = preco * quantidade;
-       if(valor<0.0){
-           valor = 0;
-       }else{
-       }if(preco < 0.0){
-           preco = 0;
    }
    
